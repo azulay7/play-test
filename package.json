@@ -1,0 +1,30 @@
+{
+  "name": "play-test",
+  "version": "1.0.0",
+  "description": "tdd playground",
+  "main": "index.js",
+  "scripts": {
+    "start": "node -r esm index.js",
+    "test": "node_modules/.bin/mocha"
+  },
+  "type": "module",
+  "keywords": [
+    "mocha",
+    "test"
+  ],
+  "author": "Amit Azulay",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.7.7",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/register": "^7.7.7",
+    "chai": "^4.2.0",
+    "mocha": "^6.2.2",
+    "mocha-param": "^2.0.0",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "esm": "^3.2.25",
+    "express": "^4.17.1"
+  }
+}
